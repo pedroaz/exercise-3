@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Voos</title>
+</head>
+<body>
+    <div id="div-principal">
+        <div id="div1">
+            <div id="tabela-voos">
+                <table>
+
+                    <caption>Voos Disponiveis</caption>
+            
+                    <colgroup>
+                        <col>
+                        <col span="2" >
+                        <col span="2" >
+                    </colgroup>
+                    
+                    <thead>
+                        <tr>
+                            <th colspan="1" scope="colgroup">ID</th>
+                            <th colspan="1" scope="colgroup">Origem</th>
+                            <th colspan="1" scope="colgroup">Destino</th>
+                        </tr>
+            
+                    </thead>
+            
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>São Paulo</td>
+                            <td>Rio de Janeiro</td>
+                            <td><button type="submit">excluir</button></td>
+                        </tr>
+            
+                        <tr>
+                            <td>2</td>
+                            <td>Bahia</td>
+                            <td>Minas Gerias</td>
+                            <td><button type="submit">excluir</button></td>
+                        </tr>
+                    </tbody>
+                    
+                </table>
+            </div>
+        </div>
+        <div id="div2">
+            <div id="div-cima">
+                <form>
+                    <fieldset>
+                        <label for="origem">Origem da viagem</label> 
+                        <input type="text" name="origem" id="origem" placeholder="São paulo/Rio De Janeiro/Pernambuco"> <br>
+                        <label for="destino">Destino da Viagem</label>
+                        <input type="text" name="destino" id="destino" placeholder="São paulo/Rio De Janeiro/Pernambuco"> <br>
+                        <button type="submit">Enviar Viagem</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
